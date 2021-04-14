@@ -21,11 +21,11 @@ import java.io.{File, IOException}
 
 import com.intel.oap.tpc.TableGen
 import com.intel.oap.tpc.ds.TPCDSTableGen._
-import io.trino.tpcds.Results.constructResults
 import io.trino.tpcds._
+import io.trino.tpcds.Results.constructResults
 import org.apache.spark.sql.catalyst.encoders.RowEncoder
-import org.apache.spark.sql.types._
 import org.apache.spark.sql.{Column, Row, SparkSession}
+import org.apache.spark.sql.types._
 
 import scala.collection.JavaConverters._
 import scala.collection.mutable.ListBuffer
@@ -117,7 +117,9 @@ class TPCDSTableGen(val spark: SparkSession, scale: Double, path: String)
   override def createTables(): Unit = {
     val files = new File(path).listFiles()
     files.foreach(file => {
+      // scalastyle:off println
       println("Creating catalog table: " + file.getName)
+      // scalastyle:on println
       spark.catalog.createTable(file.getName, file.getAbsolutePath, "arrow")
       try {
         spark.catalog.recoverPartitions(file.getName)
