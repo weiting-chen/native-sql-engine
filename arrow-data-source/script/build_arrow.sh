@@ -66,7 +66,9 @@ git clone https://github.com/oap-project/arrow.git  --branch arrow-3.0.0-oap $AR
 pushd $ARROW_SOURCE_DIR
 
 cmake ./cpp \
-	-DARROW_BUILD_STATIC=OFF -DARROW_BUILD_SHARED=ON -DARROW_COMPUTE=ON \
+	-DARROW_BUILD_STATIC=ON \
+        -DARROW_BUILD_SHARED=OFF \
+        -DARROW_COMPUTE=ON \
         -DARROW_S3=ON \
         -DARROW_GANDIVA_JAVA=ON \
         -DARROW_GANDIVA=ON \

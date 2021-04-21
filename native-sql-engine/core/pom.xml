@@ -320,12 +320,12 @@
                       <executable>bash</executable>
                       <arguments>
                           <argument>${cpp.dir}/compile.sh</argument>
-                          <argument>${nativesql.cpp_tests}</argument>
-                          <argument>${nativesql.build_arrow}</argument>
-                          <argument>${nativesql.static_arrow}</argument>
-                          <argument>${nativesql.build_protobuf}</argument>
+                          <argument>OFF</argument>
+                          <argument>OFF</argument>
+                          <argument>OFF</argument>
+                          <argument>OFF</argument>
                           <argument>${nativesql.arrow_root}</argument>
-                          <argument>${nativesql.arrow.bfs.install.dir}</argument>
+                          <argument>/root/src/developing/weiting/native-sql-engine/arrow-data-source/script/build/arrow_install</argument>
                       </arguments>
                   </configuration>
               </execution>
