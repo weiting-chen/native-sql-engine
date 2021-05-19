@@ -33,7 +33,11 @@ Then the dependencies below will be installed:
 * [HPNL](https://github.com/Intel-bigdata/HPNL)
 * [PMDK](https://github.com/pmem/pmdk)  
 * [OneAPI](https://software.intel.com/content/www/us/en/develop/tools/oneapi.html)
+<<<<<<< HEAD
 * [Arrow](https://github.com/oap-project/arrow/tree/arrow-4.0.0-oap)
+=======
+* [Arrow](https://github.com/oap-project/arrow/tree/arrow-3.0.0-oap-1.1)
+>>>>>>> 2b69e5dd5c6986ad1ba4ac77c80aced41553c024
 * [LLVM](https://llvm.org/) 
 
 Run the following command to learn more.

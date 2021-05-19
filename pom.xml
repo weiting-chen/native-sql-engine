@@ -33,7 +33,11 @@
     <scala.version>2.12.10</scala.version>
     <scala.binary.version>2.12</scala.binary.version>
     <spark.version>3.1.1</spark.version>
+<<<<<<< HEAD
     <arrow.version>4.0.0</arrow.version>
+=======
+    <arrow.version>3.0.0</arrow.version>
+>>>>>>> 2b69e5dd5c6986ad1ba4ac77c80aced41553c024
     <hadoop.version>2.7.4</hadoop.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -71,6 +75,7 @@
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
           </exclusion>
+<<<<<<< HEAD
           <exclusion>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-client</artifactId>
@@ -79,6 +84,8 @@
             <groupId>org.apache.curator</groupId>
             <artifactId>curator-recipes</artifactId>
           </exclusion>
+=======
+>>>>>>> 2b69e5dd5c6986ad1ba4ac77c80aced41553c024
         </exclusions>
       </dependency>
       <dependency>
@@ -100,6 +107,7 @@
         <version>${spark.version}</version>
         <type>test-jar</type>
         <scope>test</scope>
+<<<<<<< HEAD
         <exclusions>
           <exclusion>
             <groupId>org.apache.hadoop</groupId>
@@ -110,6 +118,8 @@
             <artifactId>curator-recipes</artifactId>
           </exclusion>
         </exclusions>
+=======
+>>>>>>> 2b69e5dd5c6986ad1ba4ac77c80aced41553c024
       </dependency>
       <dependency>
         <groupId>org.apache.spark</groupId>
@@ -138,6 +148,7 @@
         <scope>test</scope>
       </dependency>
       <dependency>
+<<<<<<< HEAD
         <groupId>org.apache.hadoop</groupId>
         <artifactId>hadoop-client</artifactId>
         <version>${hadoop.version}</version>
@@ -170,6 +181,8 @@
         </exclusions>
       </dependency>
       <dependency>
+=======
+>>>>>>> 2b69e5dd5c6986ad1ba4ac77c80aced41553c024
         <groupId>org.scalatest</groupId>
         <artifactId>scalatest_${scala.binary.version}</artifactId>
         <version>3.2.3</version>

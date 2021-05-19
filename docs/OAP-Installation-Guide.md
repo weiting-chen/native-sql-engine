@@ -36,7 +36,11 @@ Once finished steps above, you have completed OAP dependencies installation and 
 
 Dependencies below are required by OAP and all of them are included in OAP Conda package, they will be automatically installed in your cluster when you Conda install OAP. Ensure you have activated environment which you created in the previous steps.
 
+<<<<<<< HEAD
 - [Arrow](https://github.com/oap-project/arrow/tree/arrow-4.0.0-oap)
+=======
+- [Arrow](https://github.com/oap-project/arrow/tree/arrow-3.0.0-oap-1.1)
+>>>>>>> 2b69e5dd5c6986ad1ba4ac77c80aced41553c024
 - [Plasma](http://arrow.apache.org/blog/2017/08/08/plasma-in-memory-object-store/)
 - [Memkind](https://anaconda.org/intel/memkind)
 - [Vmemcache](https://anaconda.org/intel/vmemcache)

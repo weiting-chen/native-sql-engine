@@ -135,6 +135,14 @@
       <version>${project.version}</version>
     </dependency>
     <dependency>
+<<<<<<< HEAD
+=======
+      <groupId>com.google.flatbuffers</groupId>
+      <artifactId>flatbuffers-java</artifactId>
+      <version>1.9.0</version>
+    </dependency>
+    <dependency>
+>>>>>>> 2b69e5dd5c6986ad1ba4ac77c80aced41553c024
       <groupId>org.scalacheck</groupId>
       <artifactId>scalacheck_${scala.binary.version}</artifactId>
       <version>1.13.5</version>
@@ -254,6 +262,7 @@
     </dependency>
     <dependency>
       <groupId>org.apache.hadoop</groupId>
+<<<<<<< HEAD
       <artifactId>hadoop-client</artifactId>
       <scope>provided</scope>
     </dependency>
@@ -262,6 +271,10 @@
       <artifactId>spark-arrow-datasource-standard</artifactId>
       <version>${project.version}</version>
       <scope>test</scope>
+=======
+      <artifactId>hadoop-auth</artifactId>
+      <version>${hadoop.version}</version>
+>>>>>>> 2b69e5dd5c6986ad1ba4ac77c80aced41553c024
     </dependency>
   </dependencies>
 
