@@ -186,6 +186,12 @@
       </properties>
     </profile>
     <profile>
+      <id>amazon-emr-6.3.0</id>
+      <properties>
+        <hadoop.version>3.2.1</hadoop.version>
+      </properties>
+    </profile>
+    <profile>
       <id>incremental-scala-compiler</id>
       <activation>
         <activeByDefault>true</activeByDefault>
